@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url(https://media.guiame.com.br/archives/2015/07/09/2004670780-adventista-do-setimo-dia.jpg);
+
+
+}
+
+img {
+
+    display: block;
+    margin: 223px auto 0px;
+    width: 150px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px auto 0px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+
+}
+
+main {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.inputs {
+    text-align: center;
+
+}
+
+input {
+background-color: lightslategray;
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#intervalo {
+    width: 22px;
+    height: 21px;
+    border-radius: 40px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+#convert {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: chartreuse;
+    font-size: 20px;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#convert:hover {
+    opacity: .8;
+    transform: scale(1.02);
+}
+
+#convert:active {
+    opacity: .6;
+    transform: scale(0.98);
+}
+#resultado {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 40px;
+   
+}
