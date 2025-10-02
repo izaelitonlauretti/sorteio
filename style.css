@@ -7,7 +7,7 @@
 body {
     background-color: black;
     background-image: url(https://media.guiame.com.br/archives/2015/07/09/2004670780-adventista-do-setimo-dia.jpg);
-background-size: 50%;
+    background-size: 50%;
 
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 input {
-background-color: lightslategray;
+    background-color: lightslategray;
     border: none;
     height: 40px;
     width: 100px;
@@ -85,10 +85,11 @@ background-color: lightslategray;
     opacity: .6;
     transform: scale(0.98);
 }
+
 #resultado {
     color: white;
     font-size: 80px;
     text-align: center;
     margin-top: 40px;
-   
+
 }
